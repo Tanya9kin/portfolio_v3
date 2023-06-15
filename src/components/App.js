@@ -3,6 +3,7 @@ import Header from "./Header";
 import Projects from "./Projects";
 import CssBaseline from "@mui/material/CssBaseline";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
+import Skills from "./Skills";
 
 const theme = createTheme({
   palette: {
@@ -27,6 +28,7 @@ function App() {
         <CssBaseline />
         <Header />
         <Projects />
+        <Skills />
       </ThemeProvider>
     </div>
   );
